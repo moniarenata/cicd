@@ -51,6 +51,7 @@ After finishing the website development, I deployed it to Amazon S3 for cloud ho
 8. Updated the bucket policy to allow public read access.
 
 Example policy:
+```
 {
  "Version": "2012-10-17",
  "Statement": [
@@ -64,7 +65,7 @@ Example policy:
    }
  ]
 }
-
+```
 ## Accessing the Website
 Once hosting was enabled, AWS generated a static website endpoint URL. The website can be accessed directly through this URL in a browser.
 Example:
